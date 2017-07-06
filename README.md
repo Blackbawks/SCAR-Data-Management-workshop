@@ -30,12 +30,33 @@ You should now have a directory structure in your new folder that looks exactly 
 
 If you Check out the "Data" folder, you'll see an xlsx file which we'll play with (PenguinCounts.xlsx).  
 
-Now we're going to do a "PULL". ***In the "people" folder, create a new folder for your work***  
+Now we're going to do a "PULL". ***In the "people" folder, create a new folder for your work***   
+Call it something like "GrantH".  
+
+### Step 4:
+Git generally doesn't like just folders on their own, so you'll need a file for your folder to generate. In your new folder, create an empty .csv file (using Excel or your spreadsheet creator of choice). **Call this file "YOUR_NAME_PenguinCounts.csv"**
 
 From the root git directory we created in your TERMINAL or POWERSHELL, type:  
 `git pull origin master`  - this will pull any recent changes.  
 `git add .`  
 `git push origin master`  
+
+# Your next task is to be creative... we're going to prepare the "PenguinCount.xlsx" data for submission to a repository (MAPPPD)!  
+### Step 5:
+From the "Data" folder, open up the file "Penguin_Count_Notes.txt". In here, you'll find information about the counts we made up for this. They will help you to format the data.  
+
+Basic metadata for submission to MAPPPD (www.penguinmap.com) can be found at:  http://www.penguinmap.com/Metadata/  
+(NOTE - the final submission does not need the headers:  Mean, Lower CI or Upper CI)  
+
+** In your folder, create a data file for submission to MAPPPD **
+
+### Step 6:
+If you used a script, save your script to your folder. If you did the process in Excel, document the process and save it. Give the files appropriate and clear names, using the date and your name.  
+
+Once you've saved the file, Push it to Git.  
+
+
+
 
 
 
