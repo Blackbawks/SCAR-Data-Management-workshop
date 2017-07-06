@@ -32,8 +32,8 @@ If you Check out the "Data" folder, you'll see an xlsx file which we'll play wit
 
 Now we're going to do a "PULL". ***In the "people" folder, create a new folder for your work***  
 
-From the root git directory we created in your TERMINAL or POWERSHELL, type:
-`git pull origin master` <- this will pull any recent changes.  
+From the root git directory we created in your TERMINAL or POWERSHELL, type:  
+`git pull origin master`  - this will pull any recent changes.  
 `git add .`  
 `git push origin master`  
 
