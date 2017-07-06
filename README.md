@@ -26,4 +26,16 @@ Go to Terminal (in Mac) or Powershell (Windows) and cd.. to your new empty direc
 
 
 ### Step 3: 
-You should now have a directory structure in your new folder that looks exactly like the 
+You should now have a directory structure in your new folder that looks exactly like the directory structure in this repository! Congrats, you've made a pull.  
+
+If you Check out the "Data" folder, you'll see an xlsx file which we'll play with (PenguinCounts.xlsx).  
+
+Now we're going to do a "PULL". ***In the "people" folder, create a new folder for your work***  
+
+From the root git directory we created in your TERMINAL or POWERSHELL, type:
+`git pull origin master` <- this will pull any recent changes.  
+`git add .`  
+`git push origin master`  
+
+
+
