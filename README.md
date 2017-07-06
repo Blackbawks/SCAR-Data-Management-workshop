@@ -5,6 +5,9 @@ Over this workshop, we'll do a couple of simple exercises with GitHub - pulling 
 We'll then go over formatting a dataset for submission to an online repository.  
 
 ### Step 1: 
+
+GIT: https://git-scm.com/downloads    <--- Use this one - if you can't get it working, use the two below
+
 Install GIT for Windows: https://git-for-windows.github.io/  
 Install GIT for Mac: https://sourceforge.net/projects/git-osx-installer/files/  
 
@@ -17,6 +20,10 @@ There are two ways to proceed:  A) Create an empty directory, initialize a git i
 We will use option A here to learn a little more about git.  
 Go to Terminal (in Mac) or Powershell (Windows) and cd.. to your new empty directory.  Once there, type: 
 
-`git init`
-`git remote add origin https://github.com/Blackbawks/SCAR-Data-Management-workshop.git`
-`git pull origin master`
+`git init`  
+`git remote add origin https://github.com/Blackbawks/SCAR-Data-Management-workshop.git`  
+`git pull origin master` <- You might be prompted for a password here
+
+
+### Step 3: 
+You should now have a directory structure in your new folder that looks exactly like the 
