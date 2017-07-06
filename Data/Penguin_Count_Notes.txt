@@ -1,0 +1,25 @@
+NOTES on the Penguin Count data
+
+ADPE = Adelie penguin
+GEPE = Gentoo penguin
+CHPE = Chinstrap penguin
+
+All ADPE counts were performed at the colony "Metallica cove" (code = MECO).
+Lat / Lon = -64.4032, -59.2341
+All GEPE counts were performed at the colony "Jim Morrison point" (code = JMPO)
+Lat / Lon = -62.1032, -58.3353
+All CHPE counts were performed at the colony "Pearl Jam bay" (code = PJBA)
+Lat / Lon = -61.0071, -60.1121
+
+All sites are located in CCAMLR region 48.1  
+
+Count data are pulled from a report called:
+"Humphries, G. 2017. Some fake penguin count data that I made up one day for SCiENCE. Black Bawks Fake publications vol 1. Fort Augustus, Scotland"
+
+
+** RULES for MAPPPD submissions **
+- Only complete colony counts can be accepted
+- Data must be submitted as a .csv file (ideally UTF-8 formatted)
+- Data must be submitted with a text file that includes information on the data creator, and any relevant notes about how the data were processed (R, Excel, etc..)
+- If code was used to process the data, please add this as well. 
+
